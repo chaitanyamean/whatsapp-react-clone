@@ -4,7 +4,7 @@ import { Avatar } from '@material-ui/core';
 import './SidebarChart.css';
 
 const SideBarChart = ({addNewChat}) => {
-
+    
     const [profileImg, setProfileImg] = useState("");
     useEffect(() => {
         const months = ["top_captainmarvel", "top_hulk", "top_blackwidow", "top_daredevil", 
@@ -36,6 +36,5 @@ const SideBarChart = ({addNewChat}) => {
         </div>
     )
 }
-
 
 export default SideBarChart
